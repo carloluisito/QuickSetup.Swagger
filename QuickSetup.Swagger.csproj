@@ -8,7 +8,7 @@
     <RepositoryUrl>https://github.com/carloluisito/QuickSetup.Swagger.git</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>.Net Core;CSharp</PackageTags>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

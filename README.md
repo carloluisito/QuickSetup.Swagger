@@ -9,8 +9,8 @@
 "SwaggerConfiguration": {
 "Title": "YOUR_DOCUMENT_TITLE",
 "Description": "YOUR_DOCUMENT_DESCRIPTION",
-"ContactName": "Sample Name",
-"ContactEmail": "yor_email@domain.com",
+"ContactName": "YOUR_NAME",
+"ContactEmail": "your_email@domain.com",
 "AuthorizationType":  "Bearer" //Can be Basic or Bearer
 }
 ```

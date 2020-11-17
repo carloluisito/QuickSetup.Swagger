@@ -1,5 +1,7 @@
 # QuickSetup.Swagger ![.NET Core](https://github.com/carloluisito/QuickSetup.Swagger/workflows/.NET%20Core/badge.svg)
 
+## Authors
+* carloluisito
 ## Installation
 - Install Nuget Package: https://www.nuget.org/packages/QuickSetup.Swagger/
 - Create a configuration on your appsettings.json file

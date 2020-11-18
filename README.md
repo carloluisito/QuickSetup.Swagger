@@ -35,7 +35,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVers
     SwaggerService.UseSwagger(app, provider);
 }
 ```
-- .csproj file
+- API Project .csproj file
 ```
 <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
       <DocumentationFile>obj\Debug\netcoreapp3.1\{{PROJECT_NAME}}.xml</DocumentationFile>

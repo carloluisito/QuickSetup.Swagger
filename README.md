@@ -18,7 +18,7 @@
 ```
 - Startup.cs
 ```
-using QuickSetup.Swagger.Configuration;
+using QuickSetup.Swagger.Configurations;
 using QuickSetup.Swagger.Services;
 
 public void ConfigureServices(IServiceCollection services)

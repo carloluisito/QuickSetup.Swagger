@@ -1,5 +1,7 @@
 # QuickSetup.Swagger ![.NET Core](https://github.com/carloluisito/QuickSetup.Swagger/workflows/.NET%20Core/badge.svg)
 
+## Prerequisites
+* .Net Core 3.1
 ## Authors
 * carloluisito
 ## Installation
@@ -32,4 +34,15 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVers
     //other setup
     SwaggerService.UseSwagger(app, provider);
 }
+```
+- .csproj file
+```
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DocumentationFile>obj\Debug\netcoreapp3.1\{{PROJECT_NAME}}.xml</DocumentationFile>
+      <OutputPath>obj\Debug\netcoreapp3.1\</OutputPath>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <DocumentationFile>bin\Release\netcoreapp3.1\{{PROJECT_NAME}}.xml</DocumentationFile>
+      <OutputPath>bin\Release\netcoreapp3.1\</OutputPath>
+</PropertyGroup>
 ```

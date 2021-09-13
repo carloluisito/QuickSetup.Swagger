@@ -38,11 +38,11 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVers
 - API Project .csproj file
 ```
 <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-      <DocumentationFile>obj\Debug\netcoreapp3.1\{{PROJECT_NAME}}.xml</DocumentationFile>
+      <DocumentationFile>obj\Debug\{{NET_VERSION}}\{{PROJECT_NAME}}.xml</DocumentationFile>
       <OutputPath>obj\Debug\netcoreapp3.1\</OutputPath>
 </PropertyGroup>
 <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-      <DocumentationFile>bin\Release\netcoreapp3.1\{{PROJECT_NAME}}.xml</DocumentationFile>
+      <DocumentationFile>bin\Release\{{NET_VERSION}}\{{PROJECT_NAME}}.xml</DocumentationFile>
       <OutputPath>bin\Release\netcoreapp3.1\</OutputPath>
 </PropertyGroup>
 ```

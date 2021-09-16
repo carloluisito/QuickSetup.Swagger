@@ -13,7 +13,7 @@
 "Description": "YOUR_DOCUMENT_DESCRIPTION",
 "ContactName": "YOUR_NAME",
 "ContactEmail": "your_email@domain.com",
-"AuthorizationType":  "Bearer" //Can be Basic or Bearer
+"AuthorizationType":  "Bearer" //Can be Basic or Bearertest
 }
 ```
 - Startup.cs

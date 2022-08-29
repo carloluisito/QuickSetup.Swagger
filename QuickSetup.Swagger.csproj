@@ -1,19 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Authors>Carlo Luisito</Authors>
     <Company>QuickSetup</Company>
     <Product>QuickSetup</Product>
     <RepositoryUrl>https://github.com/carloluisito/QuickSetup.Swagger.git</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>.Net Core;CSharp</PackageTags>
-    <Version>5.0.1</Version>
+    <Version>6.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0-preview.2"/>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0"/>
   </ItemGroup>
 </Project>

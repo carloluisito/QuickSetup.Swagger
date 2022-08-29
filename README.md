@@ -1,7 +1,7 @@
 # QuickSetup.Swagger ![.NET Core](https://github.com/carloluisito/QuickSetup.Swagger/workflows/.NET%20Core/badge.svg)
 
 ## Latest Version
-* .Net 5.0
+* .Net 6.0
 ## Authors
 * carloluisito
 ## Installation
